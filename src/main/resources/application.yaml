@@ -15,8 +15,8 @@ spring:
       client:
         registration:
           google :
-            clientId: "117985548270-su95ov52g832q0g4fjcpsh73fdtij3k8.apps.googleusercontent.com"
-            clientSecret: "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"
+            clientId: ""
+            clientSecret: ""
             scope:
               - openid
               - address
@@ -24,13 +24,13 @@ spring:
               - phone
               - email
           github:
-            clientId: "2e832bf9aae0cf0b8215"
-            clientSecret: "016bb57ac206b54952303c4a9c346d5eb9ebcfc0"
+            clientId: ""
+            clientSecret: ""
             scope:
               - user:email
               - read:user
           facebook:
-            clientId: "2046821349041070"
-            clientSecret: "840dc0d1c7a22168f480f8cd9fbc5af5"
+            clientId: ""
+            clientSecret: ""
             scope:
               - public_profile
